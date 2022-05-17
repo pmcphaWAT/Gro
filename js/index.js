@@ -1,4 +1,7 @@
 let map, infoWindow;
+function showalert() {
+alert("js file found")
+}
 
 function initMap() {
   alert("google map initializing")
@@ -23,6 +26,7 @@ function initMap() {
             lng: position.coords.longitude,
           };
 
+          console.log(position);
           infoWindow.setPosition(pos);
           infoWindow.setContent("Location found.");
           infoWindow.open(map);

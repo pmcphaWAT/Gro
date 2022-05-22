@@ -96,7 +96,7 @@ h1,
 
     h1,
     .h1 {
-        font-size: 2.5rem
+        font-size: 3rem
     }
 }
 
@@ -919,7 +919,7 @@ progress {
 
 .g-5,
 .gy-5 {
-    --bs-gutter-y: 3rem
+    --bs-gutter-y: 2rem
 }
 
 @media (min-width: 576px) {

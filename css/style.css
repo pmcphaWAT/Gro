@@ -29,6 +29,9 @@
     background-size: contain;
 }
 
+.gro-logo {
+    height: 100px;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -85,13 +88,14 @@
 
 
 /*** Navbar ***/
+
 .fixed-top {
     transition: .5s;
 }
 
 .top-bar {
-    height: 45px;
-    border-bottom: 1px solid rgba(0, 0, 0, .07);
+    height: 40px;
+    background: rgba(238, 231, 220, 1);
 }
 
 .navbar .dropdown-toggle::after {
@@ -105,7 +109,13 @@
 
 .navbar .navbar-nav .nav-link {
     padding: 25px 15px;
-    color: #555555;
+    font-weight: 500;
+    outline: none;
+}
+
+.navlink-text-top {
+    padding: 25px 15px;
+    color: white;
     font-weight: 500;
     outline: none;
 }

@@ -23,12 +23,14 @@
                 $('.fixed-top').addClass('bg-white shadow');
             } else {
                 $('.fixed-top').removeClass('bg-white shadow');
+                $('.navbar .navbar-nav .nav-link').addClass('.navtext-top');      
             }
         } else {
             if ($(this).scrollTop() > 45) {
                 $('.fixed-top').addClass('bg-white shadow').css('top', -45);
             } else {
                 $('.fixed-top').removeClass('bg-white shadow').css('top', 0);
+                $('.navbar .navbar-nav .nav-link').addClass('.navtext-top');  
             }
         }
     });

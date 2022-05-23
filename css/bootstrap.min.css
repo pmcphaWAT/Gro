@@ -2731,10 +2731,10 @@ textarea.form-control-lg {
     padding-bottom: .625rem
 }
 
-.form-floating>.form-select {
+/* .form-floating>.form-select {
     padding-top: 1.625rem;
     padding-bottom: .625rem
-}
+} */
 
 .form-floating>.form-control:focus~label,
 .form-floating>.form-control:not(:placeholder-shown)~label,
@@ -2753,7 +2753,7 @@ textarea.form-control-lg {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    width: 100%
+    width: 100%;
 }
 
 .input-group>.form-control,

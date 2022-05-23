@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #3CB815;
+    --primary: #008037;
     --secondary: #F65005;
     --light: #F7F8FC;
     --dark: #111111;
@@ -120,19 +120,19 @@
     font-weight: bold;
     /* color: var(--dark); */
     color: var(--light);
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 .text-border {
     text-shadow:
-    0.05em 0 black,
-    0 0.05em black,
-    -0.05em 0 black,
-    0 -0.05em black,
-    -0.05em -0.05em black,
-    -0.05em 0.05em black,
-    0.05em -0.05em black,
-    0.05em 0.05em black;
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
 }
 
 @media (max-width: 991.98px) {
@@ -199,7 +199,7 @@
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -211,7 +211,7 @@
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: url(../img/carousel-1.jpg) top right no-repeat;
+    background: url(../img/Background_Pic.png) top right no-repeat;
     background-size: cover;
 }
 
@@ -304,6 +304,15 @@
 
 .product-item small a:hover {
     color: var(--primary) !important;
+}
+
+.p-link {
+    color: white;
+    text-decoration: underline
+}
+
+.p-link:hover {
+    color: #0E2A15
 }
 
 

@@ -15,20 +15,28 @@
     // Initiate the wowjs
     new WOW().init();
 
-
     // Fixed Navbar
     $(window).scroll(function () {
         if ($(window).width() < 992) {
             if ($(this).scrollTop() > 45) {
                 $('.fixed-top').addClass('bg-white shadow');
+                $( ".navbar .navbar-nav .nav-link" ).css("color", "black");
+                $( ".navbar .navbar-nav .nav-link" ).removeClass(".text-border");   
             } else {
                 $('.fixed-top').removeClass('bg-white shadow');
+                $( ".navbar .navbar-nav .nav-link" ).css("color", "white");
+                $( ".navbar .navbar-nav .nav-link" ).addClass(".text-border");    
             }
         } else {
             if ($(this).scrollTop() > 45) {
                 $('.fixed-top').addClass('bg-white shadow').css('top', -45);
+                $( ".navbar .navbar-nav .nav-link" ).css("color", "black");
+                $( ".navbar .navbar-nav .nav-link" ).removeClass(".text-border");  
             } else {
                 $('.fixed-top').removeClass('bg-white shadow').css('top', 0);
+                $( ".navbar .navbar-nav .nav-link" ).css("color", "white");
+                $( ".navbar .navbar-nav .nav-link" ).addClass(".text-border");  
+                // $('.navbar .navbar-nav .nav-link ').css('text-shadow','none')   
             }
         }
     });

@@ -6,6 +6,11 @@
     --dark: #111111;
 }
 
+#google_map_section {
+    position: absolute;
+    transform: translateY(-40vh);
+}
+
 .back-to-top {
     position: fixed;
     display: none;

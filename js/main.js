@@ -55,7 +55,6 @@
         return false;
     });
 
-
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
@@ -81,6 +80,13 @@
             }
         }
     });
+
+    //Google Maps Functions
+    function getLocation()
+    {
+        var geocoder = new google.maps.GeoCoder();
+        
+    }
 
     
 })(jQuery);

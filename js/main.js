@@ -82,10 +82,28 @@
     });
 
     //Google Maps Functions
-    function getLocation()
+
+    //Initialize and add the map
+    function initMap()
     {
-        var geocoder = new google.maps.GeoCoder();
+        getUserLocation();
         
+    }
+
+    function getUserLocation()
+    {
+        if ("geolocation" in navigator) {
+            navigator.geolocation.getCurrentPosition(function (position){
+                console.log(position);
+            }, function (err) {
+                ipLookup();
+            });
+        } else
+        ipLookup();
+
+        function ipLookup(){
+
+        }
     }
 
     

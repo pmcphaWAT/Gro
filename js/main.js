@@ -107,7 +107,7 @@ function locateUser(latitude, longitude, additional) {
     var g_map = new google.maps.Map(document.getElementById("map"), {
         center: new google.maps.LatLng(latitude, longitude),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        zoom: 12
+        zoom: 15,
     });
 
     addMarkers(g_map);
@@ -136,15 +136,18 @@ function addMarkers(g_map) {
     for (i = 0; i < locations.length; i++) {
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-            map: g_map
+            map: g_map,
+            icon: 'img/gro-marker.svg',
+            animation: google.maps.Animation.DROP
+
         });
 
+        google.maps.event.addListener(marker, 'click', (function(marker, i){
+            return function() {
+                infowindow.setContent(locations[i][0]);
+                infowindow.open(map, marker);
+            }
+        })(marker, i));
     }
-
-    // 44.0497020484571, -91.6754105152892
-    // 44.05096281797642, -91.67619372031038
-    // 44.05124327433896, -91.67982287097426
-    // 44.05198352666992, -91.67684025459225
-    // 44.04721529953577, -91.64334841278864
-    // 44.04855323590796, -91.63001783336748  
+    
 }

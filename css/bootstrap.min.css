@@ -4821,7 +4821,9 @@ fieldset:disabled .btn {
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0
+    border-radius: 0;
+    width: 322px;
+    height: 332px
 }
 
 .card>hr {
@@ -4929,7 +4931,9 @@ fieldset:disabled .btn {
 .card-img,
 .card-img-top {
     border-top-left-radius: 0;
-    border-top-right-radius: 0
+    border-top-right-radius: 0;
+    object-fit: cover;
+    height: 11.797133406835723vh;
 }
 
 .card-img,

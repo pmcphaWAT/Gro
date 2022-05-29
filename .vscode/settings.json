@@ -1,0 +1,11 @@
+{
+    "liveServer.settings.port": 5000,
+    "liveServer.settings.root": "/",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.https": {
+      "enable": true,
+      "cert": "C:/Web Development/UX Bootcamp/Final_Group_Project/Gro/https/localhost.pem",
+      "key": "C:/Web Development/UX Bootcamp/Final_Group_Project/Gro/https/localhost.key",
+      "passphrase": "localhost"
+    }
+  }

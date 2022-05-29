@@ -416,3 +416,9 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+/* google maps */
+#map {
+    height: 500px;
+    width: 100%;
+  }

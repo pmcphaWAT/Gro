@@ -419,6 +419,22 @@
 
 /* google maps */
 #map {
-    height: 500px;
-    width: 100%;
+    height: 65vh;
+    width: 100vw;
   }
+ 
+ .card-icons {
+    margin-right: 8px;
+    display: inline-block;
+ }
+
+ .card-labels {
+     font-weight: 500;
+     font-size: 14px;
+ }
+
+ .gm-style .gm-style-iw {
+    font-weight: 500;
+    font-size: 14px;
+    overflow: hidden;
+}

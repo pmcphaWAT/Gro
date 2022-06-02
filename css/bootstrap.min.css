@@ -5931,7 +5931,8 @@ fieldset:disabled .btn {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    outline: 0
+    outline: 0;
+    text-align: center;
 }
 
 .modal-dialog {
@@ -6034,19 +6035,23 @@ fieldset:disabled .btn {
 .modal-body {
     position: relative;
     flex: 1 1 auto;
-    padding: 1rem
+    color: #799E25;
+    font-size: 2.5rem;
+    padding: 1rem;
+    font-weight: 300;
 }
 
 .modal-footer {
-    display: flex;
+    font-size: 24px;
+    font-weight:500;
     flex-wrap: wrap;
     flex-shrink: 0;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex;
     padding: .75rem;
     border-top: 1px solid #dee2e6;
     border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0
+    border-bottom-left-radius: 0;
 }
 
 .modal-footer>* {
@@ -6055,7 +6060,7 @@ fieldset:disabled .btn {
 
 @media (min-width: 576px) {
     .modal-dialog {
-        max-width: 500px;
+        max-width: 796px;
         margin: 1.75rem auto
     }
 

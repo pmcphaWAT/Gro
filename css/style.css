@@ -438,3 +438,7 @@
     font-size: 14px;
     overflow: hidden;
 }
+
+.modal-btn {
+    margin: 16px;
+}

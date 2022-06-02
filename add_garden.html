@@ -212,10 +212,12 @@
                             </div>
                             <div class="col-12 form-check form-check-inline">
                                 <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-                                <label class="form-check-label" for="inlineCheckbox4">By checking this box you confirm that you agree to donate produce from your garden free of charge.</label>
+                                <label class="form-check-label" for="inlineCheckbox4">By checking this box you confirm
+                                    that you agree to donate produce from your garden free of charge.</label>
                             </div>
                             <div class="col-6">
-                                <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Add Garden</button>
+                                <!-- <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Add Garden</button> -->
+                                <button class="btn btn-primary rounded-pill py-3 px-5" data-bs-toggle="modal" type="button" data-bs-target="#staticBackdrop">Add Garden</button>
                             </div>
                         </div>
                     </form>
@@ -224,6 +226,30 @@
         </div>
     </div>
     <!-- Contact End -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content modal-dialog-centered">
+                <div class="modal-header">
+                    <Img class="gro-logo" src="img/Gro-Logo.svg" />
+                </div>
+                <div class="modal-body">
+                    Your garden was successfully create!
+                </div>
+                <a href="index.html#google_map_section" class="btn btn-primary rounded-pill modal-btn">Return to Map</a>
+                <div class="modal-footer">
+                    Share your garden on social media:
+                    <div>
+                        <img src="img/Instagram.svg"/>
+                        <img src="img/Twitter.svg"/>
+                        <img src="img/Facebook.svg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">

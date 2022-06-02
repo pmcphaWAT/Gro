@@ -88,28 +88,28 @@ var locations = [
         "title": 'Petes Garden',
         "lat": '44.0497020484571',
         "lng": ' -91.6754105152892',
-        "img_path": "https://images.unsplash.com/photo-1594498653385-d5172c532c00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdhcmRlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "img_path": "https://images.unsplash.com/photo-1624668430039-0175a0fbf006?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
         "uses_pesticides": false,
         "pick_your_own": true,
-        "is_limit": true,
+        "is_limit": false,
         "description": 'Various fruits ready to be picked.'
     },
     {
-        "title": 'Bills Curb',
+        "title": 'Bills Garden',
         "lat": '44.05096281797642',
         "lng": '-91.67619372031038',
-        "img_path": "https://images.unsplash.com/photo-1594498653385-d5172c532c00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdhcmRlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "img_path": "https://images.unsplash.com/photo-1621272156568-7306716648df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGdhcmRlbmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "uses_pesticides": false,
         "pick_your_own": true,
         "is_limit": true,
         "description": 'Offering mainly lettuce and turnips.'
     },
     {
-        "title": 'Laylas Backyard',
+        "title": 'Laylas Garden',
         "lat": '44.05124327433896',
         "lng": '-91.67982287097426',
         "img_path": "https://images.unsplash.com/photo-1594498653385-d5172c532c00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdhcmRlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "uses_pesticides": false,
+        "uses_pesticides": true,
         "pick_your_own": true,
         "is_limit": true,
         "description": 'Lots of corn ready to harvest.  Also offering tomatoes and carrots.'
@@ -118,17 +118,17 @@ var locations = [
         "title": 'Larrys Garden',
         "lat": '44.04721529953577',
         "lng": '-91.67684025459225',
-        "img_path": "https://images.unsplash.com/photo-1594498653385-d5172c532c00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdhcmRlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "img_path": "https://images.unsplash.com/photo-1601001815894-4bb6c81416d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGdhcmRlbmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "uses_pesticides": false,
         "pick_your_own": true,
         "is_limit": true,
-        "description": 'I usually have plenty of potatoes included sweet potatoes.'
+        "description": 'I usually have plenty of potatoes including sweet potatoes.'
     },
     {
-        "title": 'Sanjays Veggies',
+        "title": 'Winona State',
         "lat": '44.04721529953577',
         "lng": '-91.64334841278864',
-        "img_path": "https://images.unsplash.com/photo-1594498653385-d5172c532c00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdhcmRlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "img_path": "https://www.winona.edu/employment/Images/WHYWSU1.jpg",
         "uses_pesticides": false,
         "pick_your_own": true,
         "is_limit": true,
@@ -138,13 +138,32 @@ var locations = [
         "title": 'Janes Fruits',
         "lat": '44.04855323590796',
         "lng": '-91.63001783336748',
-        "img_path": "https://images.unsplash.com/photo-1594498653385-d5172c532c00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdhcmRlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "img_path": "https://images.unsplash.com/photo-1617267214668-14d53d568d75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2R1Y2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
         "uses_pesticides": false,
-        "pick_your_own": true,
-        "is_limit": true,
+        "pick_your_own": false,
+        "is_limit": false,
         "description": 'I carry peaches, strawberries, plums and apricots'
     }
 ];
+
+// var contentString = '<div class="card">' +
+// '<img class="card-img-top" src="https://images.unsplash.com/photo-1594498653385-d5172c532c00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdhcmRlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Card image">' +
+// '<div class="card-body">'+
+//   '<h4 class="card-title">Card title</h4>'+
+//   '<img class="card-title" src="img/directions-btn.svg" >'+
+//   '<img class="card-title" src="img/bookmark-btn.svg" >'+
+//   '<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card content.</p>'+
+//   '<div class="text-center">'+
+//   '<span class="card-icons"><img src="img/x-lg.svg"> <span class="card-labels">Pesticides</span></span> '+
+//   '<span class="card-icons"><img src="img/x-lg.svg"> <span class="card-labels">Pick your own</span></span>'+
+//   '<span class="card-icons"><img src="img/check-mark.svg"><span class="card-labels">Limit per person</span></span>'+
+//   '<span class="card-icons"></div>'+
+//   '<div class = "text-center">'+
+// '<button type="button" class="btn btn-outline-secondary btn-block card-btn">Get Directions</button>'+
+// '</div>'+
+// '</div>'+
+// '</div>'
+
 
 //Google maps functions
 function initMap() {
@@ -203,7 +222,9 @@ function setContentString(data) {
         `</div>` +
         `</div>`
 
-    return contentString;
+    data.content = contentString;
+    console.log(data.content);
+
 }
 
 function addMarkers(lat, lng) {
@@ -230,14 +251,28 @@ function addMarkers(lat, lng) {
         });
         (function (marker, data) {
             // console.log(data);
-            contentString = setContentString(data);
-            google.maps.event.addListener(marker, "mouseover", function () {
-                infoWindow.setContent(contentString);
-                infoWindow.open(map, marker);
-            });
+            // google.maps.event.addListener(marker, "mouseover", function (e) {
+            //     infoWindow.setContent(contentString);
+            //     infoWindow.open(map, marker);
+            // });
+            setContentString(data);
+            var infoWindow = new google.maps.InfoWindow({
+                content: locations[i]['content']
+              });
+            addMarkerListener(marker, infoWindow)
         })(marker, data);
         latlngbounds.extend(marker.position);
     }
+    // We have to define this function outside the scope of the above for loop,
+      // so we define is here in the global scope. If your application is large,
+      // you probably don't want to put this in the global scope - to preserve 
+      // the global namespace.
+      function addMarkerListener(marker, infowindow) {
+
+        marker.addListener('mouseover', function(e) {
+          infowindow.open(map,marker);
+        });
+      }
     var bounds = new google.maps.LatLngBounds();
     map.setCenter(latlngbounds.getCenter());
     map.fitBounds(latlngbounds);
